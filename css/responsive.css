@@ -1,0 +1,80 @@
+
+/*===== contact page responsive =======*/
+
+/* Extra small devices (phones, 600px and down) */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ 
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    .contant-left {
+        position: absolute;
+        bottom:10%;
+        left: 0%;
+        content: "";
+        width: 100%;
+        background: linear-gradient(to right, rgba(46, 55, 139, 1), rgba(0, 164, 77, 1));
+        padding: 30px;
+        transition: 4s all;
+    }
+    .contant-left h1 {
+        color: #fff;
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 400;
+        transition-duration: 3000ms;
+
+    }
+    
+    .contant-left p {
+        color: #fff;
+        font-size: 16px;
+        font-family: Open Sanc;
+        font-weight: 400px;
+    }
+    .area-con {
+        padding: 106px 0px;
+    }
+    
+    h1,h2,h2{
+        font-size: 25px !important;
+    }
+    .con-bg2{
+        background: linear-gradient(to right, rgba(46, 55, 139, 1), rgba(0, 164, 77, 1));
+        padding:30px 10px;
+      
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+  
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .header {background: pink;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
